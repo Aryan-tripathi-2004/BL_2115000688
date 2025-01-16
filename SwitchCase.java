@@ -16,16 +16,16 @@ class SwitchCase{
 
         switch(Operation){
             case 1:
-                System.out.println("Sum of two numbers are :"+num1+num2);
+                System.out.println("Sum of two numbers are :"+(num1+num2));
                 break;
             case 2:
                 System.out.println("Subtraction of two numbers are :"+(num1-num2));
                 break;
             case 3:
-                System.out.println("Multiplication of two numbers are :"+num1*num2);
+                System.out.println("Multiplication of two numbers are :"+(num1*num2));
                 break;
             case 4:
-                System.out.println("Division of two numbers are :"+num1/num2);
+                System.out.println("Division of two numbers are :"+(num1/num2));
                 break;
             default:
                 System.out.println("Wrong Input..!!");
